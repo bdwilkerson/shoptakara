@@ -1,4 +1,19 @@
 Shoptakara::Application.routes.draw do
+  resources :visitors
+
+
+  resources :sizes
+
+
+  resources :categories
+
+
+  resources :colors
+
+
+  resources :items
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
